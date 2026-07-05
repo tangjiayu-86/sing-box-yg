@@ -1877,6 +1877,7 @@ proxy-groups:
     - vmess-argo临时-$hostname
 rules:
   - GEOIP,LAN,DIRECT
+  - GEOSITE,CN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🌍选择代理节点
 EOF
@@ -2066,6 +2067,7 @@ proxy-groups:
     - vmess-argo临时-$hostname
 rules:
   - GEOIP,LAN,DIRECT
+  - GEOSITE,CN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🌍选择代理节点
 EOF
@@ -2253,6 +2255,7 @@ proxy-groups:
     - vmess-argo固定-$hostname
 rules:
   - GEOIP,LAN,DIRECT
+  - GEOSITE,CN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🌍选择代理节点
 EOF
@@ -2339,6 +2342,7 @@ proxy-groups:
     $(clany1)
 rules:
   - GEOIP,LAN,DIRECT
+  - GEOSITE,CN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🌍选择代理节点
 EOF
